@@ -1,0 +1,14 @@
+body{
+	padding: 30px;
+}
+.picture{
+	background-image: url('image.jpg');
+	background-size: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+}
